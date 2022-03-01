@@ -4,4 +4,8 @@ module "s3_bucket" {
   bucket = "my-s3-bucket"
   bucket_prefix = "dineshbisht"
   
+  versioning = {
+    enabled = true
+  }
+
 }
